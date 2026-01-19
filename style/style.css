@@ -337,8 +337,8 @@ footer {
   gap: 15px;
 }
 .footerhead ul {
-  display: grid;
-  grid-template-columns: 25% 35% 20% 20%;
+  display: flex;
+
   list-style: none;
   align-items: center;
   justify-content: center;
@@ -359,6 +359,3 @@ footer {
   align-items: center;
   gap: 10px;
 }
-
-
-  

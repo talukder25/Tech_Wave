@@ -71,7 +71,8 @@
   }
 
   .footerhead ul {
-    grid-template-columns: repeat(2, 1fr);
+    width: 350px;
+    flex-wrap: wrap;
     margin-top: 20px;
     justify-content: center;
     align-items: center;
