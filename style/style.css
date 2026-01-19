@@ -94,7 +94,7 @@ nav ul li a {
   font-weight: bold;
 }
 .herotextcontainer p {
-  color: rgb(122, 118, 118);
+  color: #9895A7;
 }
 .btndiv {
   display: flex;
@@ -134,12 +134,12 @@ nav ul li a {
 .aboutp {
   line-height: 35px;
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.692);
+  color: #9895A7;
 }
 .about2p {
   line-height: 35px;
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.692);
+  color: #9895A7;
   margin-top: 30px;
 }
 
@@ -164,7 +164,7 @@ nav ul li a {
 }
 .child p {
   font-size: 16px;
-  color: rgb(173, 159, 159);
+  color: #9895A7;
   text-transform: uppercase;
 }
 .bigcontainer {
@@ -197,7 +197,7 @@ nav ul li a {
   font-size: 25px;
 }
 .gridchild p {
-  color: rgba(255, 255, 255, 0.637);
+  color: #9895A7;
   line-height: 28px;
   font-size: 16px;
 }
@@ -233,7 +233,7 @@ nav ul li a {
   margin: 15px 0px;
 }
 .featuretitle p {
-  color: rgba(133, 126, 126, 0.651);
+  color: #9895A7;
   margin: 15px 0px;
 }
 .featurechild {
@@ -255,7 +255,7 @@ iframe {
   display: flex;
   align-items: center;
   gap: 26px ;
-  color: white;
+  color:white;
   background-color:#351165;
   border-radius: 25px;
   padding: 35px ;
@@ -265,7 +265,7 @@ iframe {
   margin-bottom: 15px;
 }
 .alexheader p{
-  color: rgba(114, 110, 110, 0.747);
+  color: #9895A7;
   font-size: 16px;
 }
 
@@ -294,4 +294,51 @@ iframe {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.footerbox{
+  background-image: url("../assets/footer-bg.png");
+  height: 100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+  padding: 120px 0px;
+background-position: center;
+max-width: 1600px;
+margin: 0px auto;
+
+
+}
+footer{
+  background-color: #230E3E;
+
+
+}
+.footerhead{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px ;
+}
+.footerhead ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.footerhead h1{
+  font-size:70px;
+  color: white;
+
+}
+.footerhead p{
+  color: #9895A7;
+  margin-top: 25px;
+}
+.footerhead ul a {
+  color: #9895A7;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
