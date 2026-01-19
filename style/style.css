@@ -42,7 +42,9 @@ nav ul li a {
   gap: 10px;
 }
 .logoheader span {
-  color: #fb09b4;
+ background-image: linear-gradient(16deg,rgb(224, 208, 30) 0%,rgb(207, 5, 147) 50%,rgb(131, 5, 221) 100%);
+ color: transparent;
+  background-clip: text;
 }
 .menuicon {
   display: none;
@@ -121,6 +123,9 @@ nav ul li a {
   font-size: 48px;
   font-weight: 800;
   margin-bottom: 15px;
+  color:white;
+  text-align: center;
+
   
 }
 .aboutp{
@@ -140,4 +145,77 @@ nav ul li a {
 height: 1px;
 margin-top: 40px;
 margin-bottom: 40px;
+}
+.cardcontainer{
+display: flex;
+justify-content: space-between;
+margin-top: 80px;
+}
+.child{
+  text-align: center;
+
+}
+.child h1{
+color: #00FF88;
+font-weight: 800;
+font-size: 48px;
+}
+.child p{
+  font-size: 16px;
+  color: rgb(173, 159, 159);
+  text-transform: uppercase;
+}
+.bigcontainer{
+  background-color: #230E3D;
+  padding: 80px 0px;
+
+}
+.gridcontainer{
+   margin-top: 60px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 29px;
+   grid-template-areas: 
+   "audio mobile mobile"
+   "audio global global"
+   "expensive expensive rich";
+}
+.gridchild{
+  background-color: #351165;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:start;
+  text-align: left;
+  border-radius: 30px;
+  color: white;
+  gap: 15px;
+ 
+}
+.gridchild h1{
+  font-size: 25px;
+
+}
+.gridchild p{
+  color: rgba(255, 255, 255, 0.637);
+  line-height: 28px;
+  font-size: 16px;
+  
+}
+.gridchild1{
+  grid-area: audio;
+}
+.gridchild2{
+grid-area: mobile;
+}
+
+.gridchild3{
+grid-area: global;
+}
+.gridchild4{
+grid-area: expensive;
+}
+.gridchild5{
+grid-area:rich;
 }
