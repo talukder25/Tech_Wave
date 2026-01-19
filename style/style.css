@@ -9,6 +9,8 @@ body {
 .header {
   background-color: #1a0b2e;
   color: white;
+  border-bottom: 1px solid #8f8f91;
+  padding: 15px 0px;
 }
 .container {
   max-width: 1200px;
@@ -94,7 +96,7 @@ nav ul li a {
   font-weight: bold;
 }
 .herotextcontainer p {
-  color: #9895A7;
+  color: #9895a7;
 }
 .btndiv {
   display: flex;
@@ -134,12 +136,12 @@ nav ul li a {
 .aboutp {
   line-height: 35px;
   font-size: 16px;
-  color: #9895A7;
+  color: #9895a7;
 }
 .about2p {
   line-height: 35px;
   font-size: 16px;
-  color: #9895A7;
+  color: #9895a7;
   margin-top: 30px;
 }
 
@@ -150,9 +152,11 @@ nav ul li a {
   margin-bottom: 40px;
 }
 .cardcontainer {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
   margin-top: 80px;
+  padding-bottom: 80px;
 }
 .child {
   text-align: center;
@@ -164,7 +168,7 @@ nav ul li a {
 }
 .child p {
   font-size: 16px;
-  color: #9895A7;
+  color: #9895a7;
   text-transform: uppercase;
 }
 .bigcontainer {
@@ -197,7 +201,7 @@ nav ul li a {
   font-size: 25px;
 }
 .gridchild p {
-  color: #9895A7;
+  color: #9895a7;
   line-height: 28px;
   font-size: 16px;
 }
@@ -233,14 +237,13 @@ nav ul li a {
   margin: 15px 0px;
 }
 .featuretitle p {
-  color: #9895A7;
+  color: #9895a7;
   margin: 15px 0px;
 }
 .featurechild {
   background-color: #250d44;
   border-radius: 30px 30px 0px 0px;
   overflow: hidden;
-
 }
 .featurechildbaba {
   display: flex;
@@ -251,41 +254,41 @@ iframe {
   width: 100%;
 }
 
-.alexheader{
+.alexheader {
   display: flex;
   align-items: center;
-  gap: 26px ;
-  color:white;
-  background-color:#351165;
+  gap: 26px;
+  color: white;
+  background-color: #351165;
   border-radius: 25px;
-  padding: 35px ;
+  padding: 35px;
 }
 
-.alexheader h1{
+.alexheader h1 {
   margin-bottom: 15px;
 }
-.alexheader p{
-  color: #9895A7;
+.alexheader p {
+  color: #9895a7;
   font-size: 16px;
 }
 
-.hostalex{
-  background-color: #1A0B2E;
+.hostalex {
+  background-color: #1a0b2e;
   padding: 70px 0px;
 }
 
-.title{
+.title {
   font-size: 20px;
   font-weight: 500;
 }
-.icon{
+.icon {
   display: flex;
   align-items: center;
   gap: 15px;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
-.icon div{
+.icon div {
   padding: 10px;
   border: 1px solid #ad9898;
   border-radius: 50%;
@@ -295,48 +298,44 @@ iframe {
   justify-content: center;
   align-items: center;
 }
-.footerbox{
+.footerbox {
   background-image: url("../assets/footer-bg.png");
   height: 100%;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   padding: 120px 0px;
-background-position: center;
-max-width: 1600px;
-margin: 0px auto;
-
-
+  background-position: center;
+  max-width: 1600px;
+  margin: 0px auto;
 }
-footer{
-  background-color: #230E3E;
-
-
+footer {
+  background-color: #230e3e;
 }
-.footerhead{
+.footerhead {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 15px ;
+  gap: 15px;
 }
-.footerhead ul{
-  display: flex;
+.footerhead ul {
+  display: grid;
+  grid-template-columns: 25% 35% 20% 20%;
   list-style: none;
   align-items: center;
-  justify-content: space-between;
-  gap: 40px;
+  justify-content: center;
+  gap: 20px;
 }
-.footerhead h1{
-  font-size:70px;
+.footerhead h1 {
+  font-size: 70px;
   color: white;
-
 }
-.footerhead p{
-  color: #9895A7;
+.footerhead p {
+  color: #9895a7;
   margin-top: 25px;
 }
 .footerhead ul a {
-  color: #9895A7;
+  color: #9895a7;
   text-decoration: none;
   display: flex;
   align-items: center;

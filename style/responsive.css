@@ -1,0 +1,84 @@
+/* this is mobile and tablet responsive design  */
+@media only screen and (max-width: 576px) {
+  .container {
+    padding: 0px 24px;
+  }
+  .menuItems {
+    display: none;
+  }
+  .header button {
+    display: none;
+  }
+  .menuicon {
+    display: block;
+  }
+  .herotextcontainer {
+    padding: 32px 41px 0px;
+  }
+  .about br {
+    display: none;
+  }
+  .about {
+    padding: 0px 24px;
+  }
+  .about p {
+    line-height: 25px;
+    text-align: center;
+  }
+  .cardcontainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .headingabout {
+    font-size: 32px;
+  }
+  .gridcontainer {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "audio"
+      "mobile"
+      "global"
+      "expensive"
+      "rich";
+  }
+  .featurechildbaba {
+    flex-direction: column;
+  }
+  .featurechild iframe {
+    height: 400px;
+  }
+  .featuretitle {
+    padding: 0px 25px 30px;
+  }
+  .featurechild {
+    border-radius: 30px;
+  }
+  .featurechild p {
+    padding-right: 30px;
+  }
+  .alexheader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .alexheader h1,
+  p {
+    text-align: center;
+  }
+  .icon {
+    justify-content: center;
+  }
+  .alexheader p {
+    padding: 0px 23px;
+  }
+  .footerhead ul {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+  .footerbox {
+    background-size: 888px;
+  }
+}
