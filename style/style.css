@@ -240,7 +240,7 @@ nav ul li a {
   background-color: #250d44;
   border-radius: 30px 30px 0px 0px;
   overflow: hidden;
-  
+
 }
 .featurechildbaba {
   display: flex;
@@ -249,4 +249,49 @@ nav ul li a {
 }
 iframe {
   width: 100%;
+}
+
+.alexheader{
+  display: flex;
+  align-items: center;
+  gap: 26px ;
+  color: white;
+  background-color:#351165;
+  border-radius: 25px;
+  padding: 35px ;
+}
+
+.alexheader h1{
+  margin-bottom: 15px;
+}
+.alexheader p{
+  color: rgba(114, 110, 110, 0.747);
+  font-size: 16px;
+}
+
+.hostalex{
+  background-color: #1A0B2E;
+  padding: 70px 0px;
+}
+
+.title{
+  font-size: 20px;
+  font-weight: 500;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top:20px;
+}
+
+.icon div{
+  padding: 10px;
+  border: 1px solid #ad9898;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
