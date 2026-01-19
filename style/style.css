@@ -42,8 +42,13 @@ nav ul li a {
   gap: 10px;
 }
 .logoheader span {
- background-image: linear-gradient(16deg,rgb(224, 208, 30) 0%,rgb(207, 5, 147) 50%,rgb(131, 5, 221) 100%);
- color: transparent;
+  background-image: linear-gradient(
+    16deg,
+    rgb(224, 208, 30) 0%,
+    rgb(207, 5, 147) 50%,
+    rgb(131, 5, 221) 100%
+  );
+  color: transparent;
   background-clip: text;
 }
 .menuicon {
@@ -113,109 +118,135 @@ nav ul li a {
   right: 30px;
   font-weight: bold;
 }
-.about{
-  background-color:#1A0B2E;
+.about {
+  background-color: #1a0b2e;
   color: white;
   text-align: center;
   padding: 70px 0px;
 }
-.headingabout{
+.headingabout {
   font-size: 48px;
   font-weight: 800;
   margin-bottom: 15px;
-  color:white;
+  color: white;
   text-align: center;
-
-  
 }
-.aboutp{
+.aboutp {
   line-height: 35px;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.692);
 }
-.about2p{
+.about2p {
   line-height: 35px;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.692);
   margin-top: 30px;
 }
 
-.hr{
+.hr {
   background-color: rgb(66, 56, 56);
-height: 1px;
-margin-top: 40px;
-margin-bottom: 40px;
+  height: 1px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
-.cardcontainer{
-display: flex;
-justify-content: space-between;
-margin-top: 80px;
+.cardcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
 }
-.child{
+.child {
   text-align: center;
-
 }
-.child h1{
-color: #00FF88;
-font-weight: 800;
-font-size: 48px;
+.child h1 {
+  color: #00ff88;
+  font-weight: 800;
+  font-size: 48px;
 }
-.child p{
+.child p {
   font-size: 16px;
   color: rgb(173, 159, 159);
   text-transform: uppercase;
 }
-.bigcontainer{
-  background-color: #230E3D;
+.bigcontainer {
+  background-color: #230e3d;
   padding: 80px 0px;
-
 }
-.gridcontainer{
-   margin-top: 60px;
-   display: grid;
-   grid-template-columns: repeat(3,1fr);
-   gap: 29px;
-   grid-template-areas: 
-   "audio mobile mobile"
-   "audio global global"
-   "expensive expensive rich";
+.gridcontainer {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 29px;
+  grid-template-areas:
+    "audio mobile mobile"
+    "audio global global"
+    "expensive expensive rich";
 }
-.gridchild{
+.gridchild {
   background-color: #351165;
   padding: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:start;
+  align-items: start;
   text-align: left;
   border-radius: 30px;
   color: white;
   gap: 15px;
- 
 }
-.gridchild h1{
+.gridchild h1 {
   font-size: 25px;
-
 }
-.gridchild p{
+.gridchild p {
   color: rgba(255, 255, 255, 0.637);
   line-height: 28px;
   font-size: 16px;
-  
 }
-.gridchild1{
+.gridchild1 {
   grid-area: audio;
 }
-.gridchild2{
-grid-area: mobile;
+.gridchild2 {
+  grid-area: mobile;
 }
 
-.gridchild3{
-grid-area: global;
+.gridchild3 {
+  grid-area: global;
 }
-.gridchild4{
-grid-area: expensive;
+.gridchild4 {
+  grid-area: expensive;
 }
-.gridchild5{
-grid-area:rich;
+.gridchild5 {
+  grid-area: rich;
+}
+
+.youtube {
+  background-color: #1a0b2e;
+  padding: 80px 0px;
+}
+
+.featuretitle {
+  color: white;
+  padding: 0px 20px 20px;
+}
+.featuretitle h2 {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 15px 0px;
+}
+.featuretitle p {
+  color: rgba(133, 126, 126, 0.651);
+  margin: 15px 0px;
+}
+.featurechild {
+  background-color: #250d44;
+  border-radius: 30px 30px 0px 0px;
+  overflow: hidden;
+  
+}
+.featurechildbaba {
+  display: flex;
+  justify-content: space-between;
+  gap: 23px;
+}
+iframe {
+  width: 100%;
 }
