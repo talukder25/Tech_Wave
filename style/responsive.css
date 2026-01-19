@@ -31,6 +31,9 @@
   .headingabout {
     font-size: 32px;
   }
+  .gridchild {
+    align-items: center;
+  }
   .gridcontainer {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
@@ -41,35 +44,32 @@
       "rich";
   }
   .featurechildbaba {
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
   }
   .featurechild iframe {
     height: 400px;
   }
-  .featuretitle {
-    padding: 0px 25px 30px;
-  }
+
   .featurechild {
     border-radius: 30px;
   }
   .featurechild p {
-    padding-right: 30px;
+    text-align: left;
   }
+
   .alexheader {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .alexheader h1,
+  .hostalex .alexheader .title h1,
   p {
     text-align: center;
   }
   .icon {
     justify-content: center;
   }
-  .alexheader p {
-    padding: 0px 23px;
-  }
+
   .footerhead ul {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 20px;
@@ -80,5 +80,25 @@
   }
   .footerbox {
     background-size: 888px;
+  }
+}
+/* this is tablet display  device responsive design  */
+@media (min-width: 577px) and (max-width: 992px) {
+  .container {
+    padding: 0px 35px;
+  }
+  .cardcontainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .gridcontainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "audio mobile"
+      "global expensive"
+      "rich rich";
+  }
+  .featurechildbaba {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
