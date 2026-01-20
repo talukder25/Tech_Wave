@@ -32,6 +32,10 @@ nav ul li a {
   color: white;
   font-size: 16px;
 }
+nav ul li a:hover {
+  color: #00ff88;
+  transition-duration: 400ms;
+}
 .firstbuttton {
   padding: 10px 19px;
   border-radius: 20px;
@@ -90,7 +94,25 @@ nav ul li a {
   height: 22rem;
   background-size: contain;
   position: relative;
+  animation: myAnimation ease-in-out infinite 1.5s;
 }
+@keyframes myAnimation {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
 .herotextcontainer {
   display: flex;
   justify-content: center;
